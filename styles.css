@@ -36,17 +36,18 @@ body {
   font-style: italic;
 }
 
-/* Partner Logos */
-.partner-logos {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
+/* Partner Institutions */
+.partner-institutions {
   margin: 15px 0;
-  flex-wrap: wrap;
-  align-items: center;
+  font-size: 0.95rem;
+  color: #555;
 }
-.partner-logos img {
-  max-height: 50px;
+.partner-institutions ul {
+  list-style: none;
+  padding-left: 20px;
+}
+.partner-institutions li {
+  margin: 8px 0;
 }
 
 /* Event Meta */
@@ -166,6 +167,6 @@ footer p {
 @media (max-width: 768px) {
   .logo-section, .event-meta { flex-direction: column; align-items: flex-start; }
   .members-grid { grid-template-columns: 1fr; }
-  .partner-logos { font-size: 0.8rem; }
+  .partner-institutions { font-size: 0.8rem; }
   .conference-title h1 { font-size: 1.4rem; }
 }
