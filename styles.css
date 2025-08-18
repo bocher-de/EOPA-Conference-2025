@@ -24,7 +24,6 @@ body {
   gap: 20px;
   flex-wrap: wrap;
 }
-.logo { height: 60px; }
 .conference-title h1 {
   font-size: 1.6rem;
   color: #003366;
@@ -154,19 +153,6 @@ footer {
   color: white;
   padding: 30px 0;
   text-align: center;
-}
-.footer-logos {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  margin-bottom: 20px;
-  flex-wrap: wrap;
-  color: #ccc;
-  font-size: 0.9rem;
-}
-.footer-logos img {
-  max-height: 50px;
 }
 footer p {
   margin: 8px 0;
